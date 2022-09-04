@@ -143,7 +143,7 @@ return [
         // 'store'  => 'redis',
     ],
 
-    'api_token' => env('API_TOKEN','test'),
+    'api_token' => env('API_TOKEN','nHcAxH9FT3MRIAIA2Hf29iOYvvTmg9jK'),
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
