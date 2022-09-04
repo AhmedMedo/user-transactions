@@ -18,7 +18,7 @@ class ApiTokenMiddleware
      */
     public function handle(Request $request, Closure $next)
     {
-        if($request->header('api-token') == config('app.api_token'))
+        if($request->header('x-api-key') == config('app.api_token'))
         {
             return $next($request);
         }

@@ -16,3 +16,6 @@ composer install
 `` 
 ./vendor/bin/sail down
 ``
+- in .env file change APP_PORT to any port you need or copy .env.example to .env
+
+- make sure to send x-api-key in request header with token
